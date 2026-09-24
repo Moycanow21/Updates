@@ -1,10 +1,12 @@
 📢 ATUALIZAÇÃO DO BANCO ECONÔMICO RPG
 
-Olá, jogadores! 🏦
+Olá, jogadores! 
 
 Estamos trazendo uma nova atualização para o Banco Econômico RPG, com melhorias na organização do sistema, na economia e na experiência de utilização. A versão estará disponível inicialmente para testes online, e contamos com a ajuda de todos para identificar possíveis erros e sugerir melhorias.
 
 🛠️ Principais melhorias
+
+
 🏦 Organização do sistema bancário
 
 Melhorias na organização das ferramentas administrativas.
