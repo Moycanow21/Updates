@@ -1,3 +1,4 @@
+### Versão: `1.4.9`
 📢 ATUALIZAÇÃO DO BANCO ECONÔMICO RPG
 
 Olá, jogadores! 
