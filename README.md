@@ -1,74 +1,79 @@
-### Versão: `1.5.3` 📢 ATUALIZAÇÃO DO BANCO ECONÔMICO RPG
+# Banco Econômico RPG — Atualizações
 
-Olá, jogadores! 
+### Versão: `1.5.0`
 
-Estamos trazendo uma nova atualização para o Banco Econômico RPG, com melhorias na organização do sistema, na economia e na experiência de utilização. A versão estará disponível inicialmente para testes online, e contamos com a ajuda de todos para identificar possíveis erros e sugerir melhorias.
+# 📢 Atualização do Banco Econômico RPG
 
-🛠️ Principais melhorias
+## 📋 Visão geral
 
+Esta atualização apresenta melhorias na organização interna do sistema, na estrutura de gerenciamento da economia e na experiência de utilização do Banco Econômico RPG.
 
-🏦 Organização do sistema bancário
+A versão **1.5.0** será disponibilizada inicialmente em fase de testes online. O objetivo é validar as melhorias implementadas, identificar possíveis inconsistências e coletar sugestões para o desenvolvimento das próximas versões.
 
-Melhorias na organização das ferramentas administrativas.
+A colaboração dos jogadores será fundamental para garantir maior estabilidade, organização e qualidade ao sistema.
 
-Separação entre as configurações dos jogadores e as configurações de gerenciamento do banco.
+## 🏦 Organização do sistema bancário
 
-Melhorias na estrutura de gerenciamento da economia.
+* Reestruturação e organização das ferramentas administrativas.
+* Separação entre as configurações destinadas aos jogadores e as ferramentas de gerenciamento do banco.
+* Melhorias na estrutura de administração da economia.
+* Organização dos módulos de Loja e Economia para facilitar a manutenção e futuras atualizações.
 
-Organização das ferramentas de Loja e Economia para facilitar futuras atualizações.
+## 🛒 Loja
 
-🛒 Loja
+* Organização das ferramentas relacionadas ao gerenciamento de produtos e preços.
+* Melhorias na estrutura de administração da Loja.
+* Preparação do sistema para futuras implementações de produtos, promoções e tabelas de preços.
 
-Organização das ferramentas relacionadas a produtos e preços.
+## 💰 Economia
 
-Melhorias na estrutura de gerenciamento da Loja.
+* Reorganização das ferramentas de gerenciamento econômico.
+* Separação entre as funcionalidades destinadas aos jogadores e os recursos administrativos.
+* Melhorias na estrutura de gerenciamento de:
 
-Preparação para futuras atualizações de produtos, promoções e tabelas de preços.
+  * Vilas;
+  * Empresas;
+  * Fundos NPC;
+  * Eventos.
+* Inclusão de um guia de configuração da Economia para facilitar a administração e a manutenção do sistema.
 
-💰 Economia
+## 🖥️ Interface e compatibilidade
 
-Organização das ferramentas de gerenciamento econômico.
+* Melhorias na organização do painel administrativo.
+* Correção e aprimoramento do layout da área de Economia.
+* Melhor adaptação da interface para telas menores e dispositivos móveis.
+* Preparação da estrutura do sistema para uma futura utilização em aplicativo Android.
 
-Separação entre as funções destinadas aos jogadores e as ferramentas administrativas.
+## 🔔 Sistema de atualizações
 
-Melhorias na estrutura de gerenciamento de vilas, empresas, fundos NPC e eventos.
+* Preparação de um documento de controle para o registro das atualizações do sistema.
+* Organização das informações que serão apresentadas aos jogadores por meio do NPC de atualizações.
+* Estrutura preparada para comunicar futuras novidades, correções e alterações no Banco Econômico RPG.
 
-Inclusão de um guia de configuração da Economia para facilitar o gerenciamento.
+## 🧪 Fase de testes
 
-🖥️ Interface e compatibilidade
+A versão `1.5.3` será disponibilizada inicialmente para testes online.
 
-Melhorias na organização do painel administrativo.
+Durante esse período, solicitamos que os jogadores comuniquem qualquer problema identificado, incluindo:
 
-Correção do layout da área de Economia.
+* Erros durante operações bancárias;
+* Problemas relacionados à Loja ou à Economia;
+* Falhas de visualização em dispositivos móveis;
+* Problemas com botões, menus ou ferramentas do sistema;
+* Comportamentos inesperados durante a utilização das funcionalidades.
 
-Melhor adaptação da interface para telas menores e dispositivos móveis.
+Ao relatar um problema, sempre que possível, informe o procedimento realizado e apresente uma captura de tela ou uma descrição detalhada do comportamento observado.
 
-Preparação da estrutura para utilização futura em aplicativo Android.
+## 🤝 Contribuição da comunidade
 
-🔔 Sistema de atualizações
+A participação dos jogadores é essencial para o aprimoramento contínuo do Banco Econômico RPG.
 
-Preparação de um documento de controle para registrar as atualizações do sistema.
+Cada relato, sugestão e contribuição ajudará a identificar pontos de melhoria e a desenvolver uma experiência mais estável, organizada e eficiente para todos.
 
-Organização das informações que serão apresentadas aos jogadores por meio do NPC de atualizações.
+**Obrigado por participar da fase de testes e contribuir para a evolução do Banco Econômico RPG! ❤️**
 
-Estrutura preparada para informar novidades, correções e mudanças futuras.
+---
 
-🧪 Fase de testes
+**Banco Econômico RPG**
 
-Esta atualização será disponibilizada inicialmente para testes.
-
-Pedimos que os jogadores comuniquem qualquer problema encontrado, incluindo:
-
-Erros em operações bancárias.
-
-Problemas na Loja ou na Economia.
-
-Falhas de visualização no celular.
-
-Problemas com botões ou menus.
-
-Comportamentos inesperados durante as operações.
-
-Toda contribuição será importante para melhorar a estabilidade e a experiência de todos.
-
-Obrigado por participar dos testes e ajudar a construir o Banco Econômico RPG! ❤️
+*Versão 1.5.0 — Fase de testes online*
