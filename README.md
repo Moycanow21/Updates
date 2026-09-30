@@ -1,103 +1,79 @@
 # Banco Econômico RPG — Atualizações
 
-### Versão: `1.5.4`
+### Versão: `1.5.5`
 
 # 📢 Atualização do Banco Econômico RPG
 
 ## 📋 Visão geral
 
-Esta atualização apresenta melhorias na personalização visual da Loja, na apresentação dos produtos e na estrutura de efeitos visuais do Banco Econômico RPG.
+A versão **1.5.5** concentra-se em correções de estabilidade, sincronização de dados e melhorias no funcionamento do sistema após a fase inicial de testes da versão 1.5.4.
 
-A versão **1.5.4** será disponibilizada inicialmente em fase de testes online. O objetivo é validar as melhorias implementadas, identificar possíveis inconsistências e coletar sugestões para o desenvolvimento das próximas versões.
+Esta atualização não introduz uma nova reformulação visual. O foco é corrigir comportamentos identificados durante os testes e garantir maior consistência entre diferentes sessões e dispositivos.
 
-A colaboração dos jogadores será fundamental para garantir maior estabilidade, organização e qualidade ao sistema.
+## 🎨 Persistência dos temas da Loja
 
-## 🏦 Organização do sistema bancário
+* Correção da persistência do tema escolhido pelo jogador.
+* A preferência visual da Loja agora é vinculada à conta do jogador.
+* O tema escolhido não deve mais retornar automaticamente ao tema padrão ao acessar a conta em outro navegador.
+* Sincronização da preferência de tema com os dados da conta.
+* O armazenamento local do navegador passa a atuar como suporte à preferência salva na conta, evitando dependência exclusiva de um único navegador ou dispositivo.
 
-* Melhorias na estrutura de personalização visual do sistema.
-* Aprimoramento das ferramentas relacionadas à administração da Loja.
-* Organização das configurações de efeitos visuais dos produtos.
-* Preparação da estrutura para futuras expansões da personalização visual.
+## 🔄 Sincronização entre navegadores
 
-## 🛒 Loja
+* Melhorias no carregamento das preferências visuais da conta.
+* Correção de situações em que um navegador mantinha uma preferência diferente de outro navegador utilizando a mesma conta.
+* Melhor preservação das configurações pessoais durante novos acessos.
+* Ajustes no carregamento das preferências para evitar que dados antigos ou incompletos substituam configurações já existentes.
 
-* Melhorias na apresentação visual dos produtos.
-* Aprimoramento da apresentação dos títulos e descrições dos produtos.
-* Implementação de novos efeitos visuais para textos.
-* Melhorias na identificação visual dos Ranks dos produtos.
-* Preparação da Loja para uma apresentação mais personalizada de produtos e categorias.
+## 💰 Economia
 
-## ✨ Efeitos visuais
+* Correção de erro que podia impedir a abertura do painel de Economia.
+* Correção de acesso inválido a informações de janelas e operações ainda não inicializadas.
+* Maior proteção contra dados `null` durante o carregamento da Economia.
+* Melhorias na estabilidade da abertura e renderização do painel econômico.
+* Preservação das operações existentes de vilas, empresas, investimentos, fundos e ciclos econômicos.
 
-* Implementação de efeitos visuais para títulos e descrições.
-* Inclusão de efeitos de cores, brilho, RGB e arco-íris.
-* Inclusão de efeitos temáticos de:
+## 🛡️ Estabilidade
 
-  * Fogo;
-  * Gelo;
-  * Elétrico;
-  * Veneno;
-  * Sombrio;
-  * Sagrado.
-* Possibilidade de utilizar diferentes efeitos visuais de acordo com a configuração do produto.
+* Correções pontuais identificadas durante os testes online.
+* Melhor tratamento de estados que ainda não foram carregados.
+* Redução de erros causados por informações temporariamente indisponíveis.
+* Melhorias na inicialização de componentes que dependem de dados do Firebase.
+* Manutenção das funcionalidades existentes sem alteração das regras de negócio.
 
-## 🏆 Sistema de Rank
+## 🌐 Firebase e dados da conta
 
-* Implementação de efeitos visuais individuais para os Ranks.
-* Possibilidade de configurar cores diferentes para cada Rank.
-* Possibilidade de escolher efeitos diferentes para cada Rank.
-* Inclusão de animações personalizadas para os efeitos dos Ranks.
-* Organização das configurações para permitir maior liberdade na personalização visual dos produtos.
+* Melhorias na persistência das preferências vinculadas ao jogador.
+* Ajustes no carregamento dos dados salvos na conta.
+* Melhor sincronização entre o estado local da aplicação e os dados armazenados remotamente.
+* Correções para tornar as preferências do jogador mais consistentes entre diferentes sessões.
 
-## 🔄 Animações
+## 🧪 Continuidade dos testes
 
-* Inclusão de três opções de animação para os efeitos dos Ranks.
-* **A · Pulsação** — variação contínua da intensidade do efeito.
-* **B · Luz passando** — movimento de luz percorrendo o texto.
-* **C · Energia contínua** — movimentação constante do efeito.
-* Melhorias na animação RGB para proporcionar uma transição contínua das cores.
-* Correções na repetição da animação RGB para evitar interrupções visíveis durante o ciclo.
+A versão `1.5.5` continua a fase de testes online do Banco Econômico RPG, agora com foco principalmente em estabilidade e consistência dos dados.
 
-## 🖥️ Interface e compatibilidade
+Durante os testes, pedimos que os jogadores continuem informando qualquer comportamento inesperado, especialmente:
 
-* Melhorias na apresentação visual dos produtos da Loja.
-* Aprimoramento da organização visual das informações dos produtos.
-* Melhor adaptação dos efeitos visuais à estrutura atual da interface.
-* Manutenção da compatibilidade dos recursos com a estrutura existente do sistema.
+* Tema da Loja retornando ao padrão;
+* Diferenças de configuração entre navegadores;
+* Problemas ao carregar a Economia;
+* Erros durante operações econômicas;
+* Dados que não sejam mantidos após sair e entrar novamente na conta;
+* Problemas relacionados ao Firebase;
+* Erros de interface ou funcionalidades que deixem de responder.
 
-## 🔔 Sistema de atualizações
-
-* Atualização das informações apresentadas aos jogadores por meio do NPC de atualizações.
-* Organização das informações referentes às novas funcionalidades implementadas.
-* Estrutura preparada para comunicar futuras novidades, correções e alterações no Banco Econômico RPG.
-
-## 🧪 Fase de testes
-
-A versão `1.5.4` será disponibilizada inicialmente para testes online.
-
-Durante esse período, solicitamos que os jogadores comuniquem qualquer problema identificado, incluindo:
-
-* Erros durante operações bancárias;
-* Problemas relacionados à Loja ou à Economia;
-* Falhas nos efeitos visuais;
-* Problemas relacionados às animações dos Ranks;
-* Problemas com o funcionamento do RGB;
-* Falhas de visualização em dispositivos móveis;
-* Problemas com botões, menus ou ferramentas do sistema;
-* Comportamentos inesperados durante a utilização das funcionalidades.
-
-Ao relatar um problema, sempre que possível, informe o procedimento realizado e apresente uma captura de tela ou uma descrição detalhada do comportamento observado.
+Ao identificar um problema, sempre que possível, informe o procedimento realizado e apresente uma captura de tela.
 
 ## 🤝 Contribuição da comunidade
 
-A participação dos jogadores é essencial para o aprimoramento contínuo do Banco Econômico RPG.
+Os testes realizados pelos jogadores continuam sendo importantes para identificar problemas que podem não aparecer durante o desenvolvimento.
 
-Cada relato, sugestão e contribuição ajudará a identificar pontos de melhoria e a desenvolver uma experiência mais estável, organizada e eficiente para todos.
+Cada relato ajuda a melhorar a estabilidade e a consistência do Banco Econômico RPG antes das próximas etapas de desenvolvimento.
 
-**Obrigado por participar da fase de testes e contribuir para a evolução do Banco Econômico RPG! ❤️**
+**Obrigado por continuar participando dos testes e contribuindo para a evolução do Banco Econômico RPG! ❤️**
 
 ---
 
 **Banco Econômico RPG**
 
-*Versão 1.5.4 — Fase de testes online*
+*Versão 1.5.5 — Correções e estabilidade*
